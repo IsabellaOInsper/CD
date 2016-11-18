@@ -1,0 +1,153 @@
+.cores_texto {
+
+	color: #000000;
+	background-color: #3ff457;
+	background-image: url(../imagens/fundo1.jpg);
+	margin: 0px;
+
+}
+.cor_link{
+	color: #41FF1F;
+	text-decoration: none;
+
+}
+	
+.cor_do_cabecalho {
+	color: #00ff00;
+	background-color: #000000;
+	z-index: +2
+	position: absolute;
+}
+
+div{
+	/*propriedade;valor;*/
+	border:none;
+	margin: 0px;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+
+img{
+	float: left;
+	position: relative;
+	z-index: 1
+
+}
+
+.imagens{
+	border: 5px solid black;
+	display: inline-block;
+	float: left;
+
+}
+
+.inicio{
+	color: #41FF1F;
+	text-decoration: none;
+	padding: 0px;
+	display: inline-block;
+	float: left;
+
+}
+
+h1{
+    font-family: 'Amatica SC', cursive;
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+ 	top: 50%;
+ 	transform: perspective(1px) translateY(150%);
+}
+
+.link_texto{
+	color: #000000;
+	text-decoration: none;
+
+}
+
+}
+
+main{
+	border: none;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.menu-item {
+	padding: 0.5rem;
+	transition: color .5s, background-color .5s;
+	z-index: 2
+}
+
+.menu-item:hover {
+	color: #EA8C00;
+	background-color: none;
+	cursor: pointer;
+	z-index: 2
+	
+
+}
+
+.menu-item:hover .submenu {
+	display: block;
+	color:#41FF1F ;
+	z-index: 2
+
+}
+
+.menuitem{
+	border: 2px solid black;
+	padding: 10px;
+	width: 15%;
+	display: inline-block;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+
+section {
+	padding: 1rem;
+	position: relative;
+	color: #000000;
+	background-color: transparent;
+	text-align: center;
+	line-height: 23px;
+	top: 50%;
+ 	transform: perspective(1px) translateY(20%);
+
+}
+
+.submenu {
+	display: none;
+	background-color: #000000;
+	position: absolute;
+	max-width: 100%;
+	min-width: 100%;
+	padding: 6px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0rem;
+  text-align: center;
+}
+
+
+b{
+	font-weight: bold;
+}
+.proj{
+	text-decoration: none;
+	color: #000000;
+}
+.proj:hover {
+	color: #EA8C00;
+	text-decoration: none;
+}
